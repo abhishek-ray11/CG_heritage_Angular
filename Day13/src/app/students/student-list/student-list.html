@@ -1,0 +1,18 @@
+<h1>Student List</h1>
+
+<div class="container">
+
+  <div class="card"
+       *ngFor="let s of students">
+
+    <h2>{{s.name}}</h2>
+
+    <a [routerLink]="['/students',s.id]">
+
+      View Details
+
+    </a>
+
+  </div>
+
+</div>

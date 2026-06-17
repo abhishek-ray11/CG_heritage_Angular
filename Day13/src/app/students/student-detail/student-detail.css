@@ -1,0 +1,23 @@
+.detail-card{
+
+    width:500px;
+
+    margin:100px auto;
+
+    padding:40px;
+
+    background:white;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 15px 30px rgba(0,0,0,.1);
+
+}
+
+h1{
+
+    color:#5b5ef5;
+
+}
