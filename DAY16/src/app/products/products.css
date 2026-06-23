@@ -1,0 +1,10 @@
+.card{
+    background:white;
+    border:2px solid black;
+    margin:20px;
+    padding:20px;
+}
+
+h2,h3,p{
+    color:black;
+}
