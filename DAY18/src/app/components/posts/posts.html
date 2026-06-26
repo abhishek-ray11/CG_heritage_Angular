@@ -1,0 +1,29 @@
+<div class="container">
+
+    <h1>Angular HTTP Interceptor Assignment</h1>
+
+    <p class="subtitle">
+        Demonstration of Logging Interceptor and Error Interceptor using Angular HttpClient
+    </p>
+
+    <div class="button-group">
+
+        <button class="load-btn" (click)="loadPosts()">
+            📚 Load Angular Topics
+        </button>
+
+        <button class="error-btn" (click)="testError()">
+            ⚠️ Test Error Interceptor
+        </button>
+
+    </div>
+
+    <div class="card" *ngFor="let post of posts">
+
+        <h2>{{ post.title }}</h2>
+
+        <p>{{ post.body }}</p>
+
+    </div>
+
+</div>
